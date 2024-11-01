@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+</head>
+<style>
+    body {
+        background-color: black;
+    }
+
+    h1 {
+        color: yellow;
+        text-align: left;
+
+    }
+
+    p {
+        color: yellow;
+        text-align: left;
+
+    }
+
+    h1,
+    p {
+        margin: 0;
+    }
+</style>
+
+<body>
+    <b>
+        <h1>Employee Application
+    </b></h1>
+    <p>please complete the form below to apply for a position with us</p>
+    <br>
+    <hr style="color: whitesmoke;">
+    <br>
+    <form>
+        <label for="fname" style="color: yellow;">Full Name : </label>
+        <input type="text" id="fname" name="fname" required placeholder="Enter your name">
+        <br>
+        <br>
+        <br>
+        <label for="email" style="color: yellow;">E-mail &nbsp; &nbsp; &nbsp; : </label>
+        <input type="email" name="email" id="email" required placeholder="ex:abc@mail.com">
+        <br>
+        <br>
+        <br>
+        <label for="phone" style="color: yellow;">Phone &nbsp; &nbsp; &nbsp; : </label>
+        <input type="tel" id="phone" name="phone" required placeholder="+">
+        <br>
+        <br>
+        <br>
+        <label for="add" style="color: yellow; ">Address &nbsp; &nbsp; : </label>
+        <input type="text" id="add" name="add" required size="50" placeholder="House No.,Building Name(Required)*"
+            required>
+        <br>
+        <br>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" size="30" placeholder="Road name,Area,Colony(Required)*" required>
+        <br>
+        <br>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" size="30" placeholder="State(Required)*" required>
+        <br>
+        <br>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" size="30" placeholder="City(Required)*" required>
+        <br>
+        <br>
+        <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="text" size="30" placeholder="Pin code(Required)*" required>
+        <br>
+        <br>
+        <label for="country" style="color: yellow;">Country&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+        <select id="country" name="country">
+            <option value=""></option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="pos" style="color: yellow;">Applying <br>for position : </label>
+        <input type="text" id="pos" name="pos" required placeholder="(Required)*">
+        <br>
+        <br>
+        <br>
+        <label for="start" style="color: yellow;">When can<br> you start? &nbsp;&nbsp;: </label>
+        <input type="text" id="start" name="start" required placeholder="(Required)*">
+        <br>
+        <br>
+        <br>
+        <label for="file" style="color: yellow;">Cover letter :</label>
+        <input type="file" id="file" name="file" required>
+        <label for="res" style="color: yellow;">Upload resume:</label>
+        <input type="file" id="res" name="res" required>
+        <br>
+        <br>
+        <br>
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+
+        <input type="reset">
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        &nbsp;&nbsp;
+        <input type="submit" onclick="alert('Are you sure?')">
+    </form>
+
+</body>
+
+</html>
