@@ -14,11 +14,12 @@
     h1 {
         color: yellow;
         text-align: left;
+        font-weight: 800;
 
     }
 
     p {
-        color: yellow;
+        color: grey;
         text-align: left;
 
     }
@@ -37,9 +38,12 @@
     <br>
     <hr style="color: whitesmoke;">
     <br>
-    <form>
-        <label for="fname" style="color: yellow;">Full Name : </label>
-        <input type="text" id="fname" name="fname" required placeholder="Enter your name">
+    <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="3572ef7c-9a39-45fc-8b6a-db37c6e9d1d2">
+
+        
+        <label for="name" style="color: yellow;">Full Name : </label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name" >
         <br>
         <br>
         <br>
@@ -48,13 +52,13 @@
         <br>
         <br>
         <br>
-        <label for="phone" style="color: yellow;">Phone &nbsp; &nbsp; &nbsp; : </label>
-        <input type="tel" id="phone" name="phone" required placeholder="+">
+        <label for="phone" style="color: yellow;">Phone &nbsp; &nbsp; &nbsp;&nbsp; : </label>
+        <input type="tel" id="phone" name="phone" required placeholder="+Your number">
         <br>
         <br>
         <br>
-        <label for="add" style="color: yellow; ">Address &nbsp; &nbsp; : </label>
-        <input type="text" id="add" name="add" required size="50" placeholder="House No.,Building Name(Required)*"
+        <label for="address" style="color: yellow; ">Address &nbsp; &nbsp; :</label>
+        <input type="text" id="address" name="address" required size="50" placeholder="House No.,Building Name(Required)*"
             required>
         <br>
         <br>
@@ -84,13 +88,13 @@
         <br>
         <br>
         <br>
-        <label for="pos" style="color: yellow;">Applying <br>for position : </label>
-        <input type="text" id="pos" name="pos" required placeholder="(Required)*">
+        <label for="position" style="color: yellow;">Applying <br>for position : </label>
+        <input type="text" id="position" name="position" required placeholder="(Required)*">
         <br>
         <br>
         <br>
-        <label for="start" style="color: yellow;">When can<br> you start? &nbsp;&nbsp;: </label>
-        <input type="text" id="start" name="start" required placeholder="(Required)*">
+        <label for="start_from" style="color: yellow;">When can<br> you start? &nbsp;&nbsp;: </label>
+        <input type="text" id="start_from" name="start_from" required placeholder="(Required)*">
         <br>
         <br>
         <br>
@@ -115,7 +119,7 @@
         &nbsp;&nbsp;
         &nbsp;&nbsp;
 
-        <input type="reset">
+        <input type="reset" onclick="alert('Do you want to reset')">
         &nbsp;&nbsp;
         &nbsp;&nbsp;
         &nbsp;&nbsp;
